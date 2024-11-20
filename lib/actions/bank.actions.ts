@@ -123,7 +123,7 @@ export const getAccount = async ({ appwriteItemId }: getAccountProps) => {
       transactions: allTransactions,
     });
   } catch (error) {
-    console.error("An error occurred while getting the account:", error.response);
+    console.error("An error occurred while getting the account:", error);
   }
 };
 
