@@ -28,6 +28,14 @@ export default function AuthForm({ type }: { type: string }) {
     defaultValues: {
       email: "",
       password: "",
+      firstName: "", // Add this
+    lastName: "",  // Add this
+    address1: "",  // Add this
+    city: "",      // Add this
+    state: "",     // Add this
+    postalCode: "",// Add this
+    dateOfBirth: "",// Add this
+    ssn: "",       // Add this
     },
   });
 
